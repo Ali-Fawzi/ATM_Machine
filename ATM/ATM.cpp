@@ -29,7 +29,7 @@ int main() {
 				std::cout << "inseficent money!\n"; //console output
 			else
 				std::cout << "done!\n";
-			balance -= amount;
+			balance -= amount; //decreases the balance
 			break;
 		case '4':
 			std::cout << "See ya ^_^";
@@ -38,7 +38,7 @@ int main() {
 			std::cout << "invalid selection, try agin\n";
 			break;
 		}
-	} while (choice != '4');
+	} while (choice != '4'); //when the user inputs '4' the program ends
 	return 0;
 
 }
