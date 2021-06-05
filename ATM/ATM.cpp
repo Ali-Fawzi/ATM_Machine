@@ -17,15 +17,15 @@ int main() {
 			std::cout << balance << "$\n";
 			break;
 		case '2':
-			std::cout << "how much you want to depos\n";
+			std::cout << "how much you want to depos ?\n";
 			std::cin >> amount;
 			balance = +amount;
 			break;
 		case '3':
-			std::cout << "how muce you want to withdrew\n";
+			std::cout << "how muce you want to withdrew >\n";
 			std::cin >> amount;
 			if (balance < amount)
-				std::cout << "inseficent money\n";
+				std::cout << "inseficent money!\n";
 			else
 				std::cout << "done!\n";
 			balance -= amount;
@@ -34,7 +34,7 @@ int main() {
 			std::cout << "See ya ^_^";
 			break;
 		default:
-			std::cout << "invalid selection , try agin\n";
+			std::cout << "invalid selection, try agin\n";
 			break;
 		}
 	} while (choice != '4');
