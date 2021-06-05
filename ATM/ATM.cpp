@@ -1,6 +1,7 @@
 #include<iostream>
-// there is a bug;
+#include<windows.h>
 int main() {
+	system("color 2");
 	double amount, balance = 0.00;
 	char choice;
 	std::cout << "\t ATM MACHINE" << std::endl;
