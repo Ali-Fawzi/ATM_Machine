@@ -13,7 +13,7 @@ int main() {
 		std::cout << "> Press 4 to QUIT" << std::endl;
 		std::cout << "> Enter your selection";
 		std::cin >> choice;                 //get input from the user
-		switch (choice) {   //switching choices
+		switch (choice) {                   //switching choices
 		case '1':
 			std::cout << balance << "$\n";
 			break;
