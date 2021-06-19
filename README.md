@@ -1,5 +1,5 @@
 Simple Atm Machine in C++ language.
 
 
-To run the program GO to --> ATM -->ATM.cpp
+To Run the Program GO to --> ATM -->ATM.cpp
 
