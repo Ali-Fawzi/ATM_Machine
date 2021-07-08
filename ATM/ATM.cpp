@@ -12,7 +12,7 @@ int main() {
 		std::cout << "> Press 3 to withdrew" << std::endl;
 		std::cout << "> Press 4 to QUIT" << std::endl;
 		std::cout << "> Enter your selection";
-		std::cin >> choice;//get input from the user
+		std::cin >> choice;//get input from the user.
 		switch (choice) {//switching choices.
 		case '1':
 			std::cout << balance << "$\n";
@@ -25,8 +25,8 @@ int main() {
 		case '3':
 			std::cout << "how muce you want to withdrew >\n";
 			std::cin >> amount;
-			if (balance < amount)//if the money in the balance is less then the required
-				std::cout << "inseficent money!\n"; //console output
+			if (balance < amount)//if the money in the balance is less then the required.
+				std::cout << "inseficent money!\n"; //console output.
 			else
 				std::cout << "done!\n";
 			balance -= amount;//decreases the balance
