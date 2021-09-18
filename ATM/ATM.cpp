@@ -20,7 +20,7 @@ int main() {
 		case '2':
 			std::cout << "how much you want to depos ?\n";
 			std::cin >> amount;//geting input from user.
-			balance = +amount;//increases the balance
+			balance = +amount;//increases the balance.
 			break;
 		case '3':
 			std::cout << "how muce you want to withdrew >\n";
