@@ -8,7 +8,7 @@ int main() {
 
 	do {//Loop till the user choices to Quit.
 		std::cout << "> Press 1 for checking the balance" << std::endl;
-		std::cout << "> Press 2 to deposit" << std::endl;//console output.
+		std::cout << "> Press 2 to deposit" << std::endl;//console output
 		std::cout << "> Press 3 to withdrew" << std::endl;
 		std::cout << "> Press 4 to QUIT" << std::endl;
 		std::cout << "> Enter your selection";
