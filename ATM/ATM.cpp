@@ -1,10 +1,10 @@
 #include<iostream>
 #include<windows.h>
 int main() {
-	system("color 2");//set the screen colour to green.
-	double amount, balance = 0.00;//used vaule in the program.
-	char choice;//user choices.
-	std::cout << "\t ATM MACHINE" << std::endl;//console output.
+	system("color 2");//set the screen colour to green
+	double amount, balance = 0.00;//used vaule in the program
+	char choice;//user choices
+	std::cout << "\t ATM MACHINE" << std::endl;//console output
 
 	do {//Loop till the user choices to Quit.
 		std::cout << "> Press 1 for checking the balance" << std::endl;
