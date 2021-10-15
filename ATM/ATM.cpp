@@ -6,7 +6,7 @@ int main() {
 	char choice;//user choices.
 	std::cout << "\t ATM MACHINE" << std::endl;//console output.
 
-	do {//Loop till the user choices to Quit
+	do {//Loop till the user choices to Quit.
 		std::cout << "> Press 1 for checking the balance" << std::endl;
 		std::cout << "> Press 2 to deposit" << std::endl;//console output
 		std::cout << "> Press 3 to withdrew" << std::endl;
