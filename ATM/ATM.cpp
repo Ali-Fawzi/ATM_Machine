@@ -1,5 +1,5 @@
 #include<iostream>   
-#include<windows.h>
+#include<windows.h> 
 int main() {
 	system("color 2");//set the screen colour to green.
 	double amount, balance = 0.00;//used vaule in the program.
