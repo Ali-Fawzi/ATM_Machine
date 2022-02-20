@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream> 
 #include<windows.h>
 int main() { 
 	system("color 2");//set the screen colour to green.
